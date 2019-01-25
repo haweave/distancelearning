@@ -5,7 +5,7 @@ This is a short project examinging the distance learning dataset located here (h
 ## Getting Started
 
 * You will need to move a copy of the distance learning data located here (https://analyse.kmi.open.ac.uk/open_dataset) to the data/raw directory.  
-* Then you will need to run preprocessing.py 
+* Then you will need to run src/data/features/preprocessing.py 
 * You should be good to go, the only piece of code you wouldn need at that point is the StudentAnalysisAndModel.ipynb located in the notebooks directory 
 
 ### Prerequisites
@@ -56,8 +56,8 @@ Project Organization
     │   ├── data           <- Scripts to download or generate data
     │   │   └── make_dataset.py
     │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
+    │   ├── features       <- Scripts to merge data and get the data (mostly) ready for modeling
+    │   │   └── preprocessing.py
     │   │
     │   ├── models         <- Scripts to train models and then use trained models to make
     │   │   │                 predictions
