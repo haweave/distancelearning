@@ -1,7 +1,25 @@
-valkyrie_project
-==============================
+# Project Title
 
-Project for office visit with Valkyrie Intelligence
+This is a short project examinging the distance learning dataset located here (https://analyse.kmi.open.ac.uk/open_dataset).  In this project I am building a model to predict the final exam score for a student in the "DDD" module using their past grades, demographics, and study habits.  
+
+## Getting Started
+
+* You will need to move a copy of the distance learning data located here (https://analyse.kmi.open.ac.uk/open_dataset) to the data/raw directory.  
+* Then you will need to run preprocessing.py 
+* You should be good to go, the only piece of code you wouldn need at that point is the StudentAnalysisAndModel.ipynb located in the notebooks directory 
+
+### Prerequisites
+
+You will need to install the following packages to run the code
+
+```
+conda install scikit-learn
+conda install pandas
+conda install numpy
+conda install matplotlib
+```
+
+
 
 Project Organization
 ------------
