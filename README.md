@@ -1,4 +1,4 @@
-# Project Title
+# Distance Learning
 
 This is a short project examinging the distance learning dataset located here (https://analyse.kmi.open.ac.uk/open_dataset).  In this project I am building a model to predict the final exam score for a student in the "DDD" module using their past grades, demographics, and study habits.  
 
